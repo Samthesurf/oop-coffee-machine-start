@@ -15,6 +15,7 @@ while True:
     coffee_choice = input("What would you like? (espresso/latte/cappuccino): ")
     if coffee_choice == 'report':
         coffee_maker.report()
+        money_machine.report()
         continue  # it restarts the loop after giving the report
     if coffee_choice == 'espresso':
         drink = espresso
